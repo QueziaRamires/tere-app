@@ -7,7 +7,7 @@ import {StackNavigatorParamList}from'../../../types';
 type LoginProps=NativeStackNavigationProp<StackNavigatorParamList>;
 const Login=()=>{
 	const navigation=useNavigation<LoginProps>();
-	function irTelaHome(){
+	function irTelaHome() {
 		navigation.navigate('Home');
 	}
 	return(

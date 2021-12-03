@@ -1,9 +1,9 @@
-import React from'react';
+import React from 'react';
 import {View,Text,Image,TextInput,TouchableOpacity}from'react-native';
-import {styles}from'./styles';
+import {styles} from'./styles';
 import {useNavigation} from '@react-navigation/native';
-import {NativeStackNavigationProp}from'@react-navigation/native-stack';
-import {StackNavigatorParamList}from'../../../types';
+import {NativeStackNavigationProp} from'@react-navigation/native-stack';
+import {StackNavigatorParamList} from'../../../types';
 type LoginProps=NativeStackNavigationProp<StackNavigatorParamList>;
 const Login=()=>{
 	const navigation=useNavigation<LoginProps>();
